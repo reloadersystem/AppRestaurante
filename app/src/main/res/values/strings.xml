@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppRestaurante</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_chef">Chef</string>
+    <string name="title_menu">Menú</string>
+    <string name="title_orden">Orden</string>
+    <string name="default_notification_channel_id">ABC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

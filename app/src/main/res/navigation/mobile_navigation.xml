@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.apprestaurante.ui.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.apprestaurante.ui.fragments.dashboard.DashboardFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_orden"
+        android:name="com.example.apprestaurante.ui.fragments.notifications.NotificationsFragment"
+        android:label="@string/title_orden"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_chef"
+        android:name="com.example.apprestaurante.ui.fragments.chef.ChefFragment"
+        android:label="@string/title_chef"
+        tools:layout="@layout/chef_fragment" />
+
+</navigation>

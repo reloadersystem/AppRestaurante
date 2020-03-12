@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.DetalleMenuFragment">
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:id="@+id/iv_favorito"
+        android:layout_below="@id/iv_menu"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_favorite_border_24px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_below="@id/iv_favorito"
+        android:layout_margin="16dp"
+        android:text="Arroz con pollo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_below="@id/tv_titulo"
+        android:layout_margin="16dp"
+        android:text="Arroz, pollo, ají, chicha de jora y especias."
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_precio"
+        android:layout_below="@id/iv_favorito"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        tools:text="S/. 14.50"
+        android:textColor="#c10b19"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_ordenar"
+        android:layout_below="@id/tv_descripcion"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_ordenar"
+        android:text="Ordenar"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "301345929356",
+    "firebase_url": "https://av-g23.firebaseio.com",
+    "project_id": "av-g23",
+    "storage_bucket": "av-g23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301345929356:android:094388b32e260a8c3fe3a9",
+        "android_client_info": {
+          "package_name": "com.example.apprestaurante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301345929356-ug975h2lijr6fvtia23tcjnj0t483eul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ja5-C3iWLKUforft11oKenNr8nF9wGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301345929356-ug975h2lijr6fvtia23tcjnj0t483eul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
